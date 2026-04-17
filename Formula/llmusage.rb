@@ -1,26 +1,26 @@
 class Llmusage < Formula
   desc "CLI tool to track and analyze LLM API usage across providers"
   homepage "https://github.com/openrijal/llmusage"
-  version "0.1.1"
+  version "0.1.2"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/openrijal/llmusage/releases/download/v0.1.1/llmusage-v0.1.1-aarch64-apple-darwin.tar.gz"
-      sha256 "efa2b2be32074502ced0ab3b49df7aa1013433f94de778892a8ee2c237a4a130"
+      url "https://github.com/openrijal/llmusage/releases/download/v0.1.2/llmusage-v0.1.2-aarch64-apple-darwin.tar.gz"
+      sha256 "eca6e602748689625dbe9f83eb830ffa045b169c3fdc5935d6fdcef64a236040"
     else
-      url "https://github.com/openrijal/llmusage/releases/download/v0.1.1/llmusage-v0.1.1-x86_64-apple-darwin.tar.gz"
-      sha256 "695b1572c1ac07ad3696845c52371dc519192d703df1777f590ae9c7fa307b41"
+      url "https://github.com/openrijal/llmusage/releases/download/v0.1.2/llmusage-v0.1.2-x86_64-apple-darwin.tar.gz"
+      sha256 "086418ff607e4e6f47259b76d66414261619255868c3e30cef157c767f646636"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/openrijal/llmusage/releases/download/v0.1.1/llmusage-v0.1.1-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "c942062493c22b69edd5f1c661fb1ee425d34f2d7e9b0edc5c033066739ad885"
+      url "https://github.com/openrijal/llmusage/releases/download/v0.1.2/llmusage-v0.1.2-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "640b827ec1050b39d1ed46349dc6c81fc93ee2dbffcdf2b10decc7f6e80216c3"
     else
-      url "https://github.com/openrijal/llmusage/releases/download/v0.1.1/llmusage-v0.1.1-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "a35b5cd928023d0ca5cb1b5f5115e0fbb9b7c472fad5284bedf504693914f81e"
+      url "https://github.com/openrijal/llmusage/releases/download/v0.1.2/llmusage-v0.1.2-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "486d3317e938c3a265628eb7650f954409b21a1e584c930a848ffaeda5874a35"
     end
   end
 
